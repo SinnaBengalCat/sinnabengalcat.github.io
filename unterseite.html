@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Der html Tag ist das Urtag jeder HTML Seite-->
+<html>
+  <!-- Head-Element ist für die Meta-Daten zuständig-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Titel Tag des Dokuments für die Registerkarte des Browser und Google Suche Ergebnisse-->
+    <title>Unterseite meiner Websteite</title>
+    <meta name="description" content="Das ist nur eine Unterseite" />
+    <!-- Beschreibung der Seite auf Google, wichtig für SEO: ca 160 bis 240 zeichen-->
+    <meta name="robots" content="index, follow" />
+    <!-- Robots Meta Tag, damit die Seite von Suchmaschinen indexiert wird, wenn es nicht gewünscht ist, in der Zeile 11 "noindex"-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link zum Stylesheet, um die Graik zu bearbeiten, muss eine Verknüpfung zwischen der html Seite und der CSS Seite geben. der Pfad muss stimmen-->
+  </head>
+  <body>
+    <!-- Body-Element ist für den Inhalt der Seite zuständig-->
+    <h1>Das ist eine Überschrift</h1>
+    <p id="first">
+      Textabsatz: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Necessitatibus laudantium repellat dolores, perferendis, numquam illo
+      alias commodi consequatur et debitis eos at! Velit debitis inventore
+      architecto possimus, dolorem adipisci qui.
+    </p>
+    <p class="gelb">Weitere Informationen folgen bald.</p>
+    <!--#id vergibt man nur einmal, class kann öfters vergeben-->
+    <img
+      src="images/hur_o.jpg"
+      alt="eine schwarze Katze, die auf dem Boden liegt, sie bedeckt ihre schnautze mit ihrer Pfote und vor ihr liegt ein Lego Mensch mit einer Karotte"
+    />
+    <!-- Bei den Bildern kommt nachdem "src" den Namen des Ordners schreiben und wird automatisch alle bilder aufgelistest-->
+    <p></p>
+    <!--das p steht für Textabsatz oder besser gesagt-->
+    <p></p>
+    <img src="images/Loki.webp" alt="das ist loki, es ist ein kleiner Kitten" />
+    <video
+      src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      controls
+      poster="images/hur_o.jpg"
+    ></video>
+    <!--Hier wurde unter "src" ein link hinzugefügt, um das Video abspielen zu können muss man "controls" hinzufügen und wenn ein Strartbild auf dem Video gewünscht ist, dann "poster" eingeben und dann den Pfad wo das Bild liegt-->
+    <p></p>
+    <p></p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/39ql9aNS3IU?si=jiR4Wprpe6O_nbWd"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <!-- Auf YouTube eine Video wählen, auf teilen, einbetten, html code kopieren und einfügen-->
+    <p></p>
+    <p></p>
+    <a href="index.html">Zurück zur Startseite</a
+    ><!-- oder nach "href" ein /-->
+  </body>
+</html>
